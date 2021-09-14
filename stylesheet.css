@@ -9,6 +9,10 @@ body {
   font-family: sans-serif;
 }
 
+.text-size {
+  font-size: 20px;
+}
+
 .margin-radius {
     margin-bottom: 2%;
     border-radius: 8px;
@@ -60,6 +64,11 @@ body {
   width: 100%;
   padding: 2% 0 0 2%;
   font-size: 18px;
+}
+
+.speaker-select-label {
+  color: white;
+  margin-bottom: 1%;
 }
 
 .form-control {
