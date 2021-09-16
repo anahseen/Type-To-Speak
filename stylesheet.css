@@ -21,8 +21,12 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  margin: 0 5%;
+  margin: 0 15%;
+}
+
+.less-width {
+  width: 70%;
+  align-self: center;
 }
 
 .center {
@@ -61,6 +65,8 @@ body {
 }
 
 .textarea-cont {
+  box-sizing: border-box;
+  
   width: 100%;
   padding: 2% 0 0 2%;
   font-size: 18px;
